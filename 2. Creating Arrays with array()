@@ -1,0 +1,4 @@
+<?php
+// Write your code below:
+$first_array = array("Paul", 1, "John", 2, "David");
+echo count($first_array);
