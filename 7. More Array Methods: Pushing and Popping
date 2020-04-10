@@ -1,0 +1,13 @@
+<?php
+namespace Codecademy;
+
+$stack = ["wild success", "failure", "struggle"];
+// Write your code below:
+array_push($stack, "blocker", "impediment");
+//echo implode(",",$stack);
+print_r($stack);
+echo array_pop($stack);
+echo array_pop($stack);
+echo array_pop($stack);
+echo array_pop($stack);
+print_r($stack);
